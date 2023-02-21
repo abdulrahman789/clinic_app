@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('logo.jpg')
+image = Image.open('logo.png')
 st.image(image)
 
 st.markdown("<h1 style='text-align: center;'>مرحبا بك مراجعنا العزيز</h1>", unsafe_allow_html=True)
